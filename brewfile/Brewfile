@@ -1,0 +1,51 @@
+#tap 
+tap "homebrew/bundle"
+tap "homebrew/services"
+
+
+# Code searching, linting, rewriting
+brew "ast-grep"
+# Tiniest x86-64-linux emulator
+brew "blink"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Package manager for the Lua programming language
+brew "luarocks"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Simplified and community-driven man page
+brew "tldr"
+# Successor of GNU Wget, a file and recursive website downloader
+brew "wget2"
+# Next-generation plugin manager for zsh
+brew "zplug"
+# Desktop password and login vault
+cask "bitwarden"
+cask "font-cousine-nerd-font"
+cask "font-powerline-symbols"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Instant messaging application focusing on security
+cask "signal"
+# System monitor for the menu bar
+cask "stats"
+# Virtual machines UI using QEMU
+cask "utm"
