@@ -1,4 +1,10 @@
-#tap 
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+#Installing Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+#tap
 tap "homebrew/bundle"
 tap "homebrew/services"
 
@@ -49,3 +55,12 @@ cask "signal"
 cask "stats"
 # Virtual machines UI using QEMU
 cask "utm"
+#Browser
+cask "firefox"
+#Diff so fancy
+brew "diff-so-fancy"
+#mas 
+brew "mas"
+
+EOF
+{{ end -}}
