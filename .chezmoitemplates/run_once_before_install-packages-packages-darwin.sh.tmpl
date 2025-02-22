@@ -3,6 +3,8 @@
 #Installing Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+export HOMEBREW_NO_ENV_HINTS=1
+
 brew bundle --no-lock --file=/dev/stdin <<EOF
 #tap
 tap "homebrew/bundle"
