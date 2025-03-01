@@ -1,7 +1,5 @@
 {{- if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
-#Installing Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 export HOMEBREW_NO_ENV_HINTS=1
 
@@ -65,6 +63,18 @@ brew "diff-so-fancy"
 brew "mas"
 #iterm2
 cask "iterm2"
+
+if test ! $(which brew); then
+   printf '\n\n\e[33mHomebrew not found. \e[0mInstalling Homebrew...'
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+else
+  printf '\n\n\e[0mHomebrew found. Continuing...'
+fi
+
+
+
+
+
 
 EOF
 {{ end -}}
