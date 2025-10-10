@@ -1,0 +1,11 @@
+{{ if lookPath "brew" }}
+## Homebrew
+HOMEBREW_PREFIX="/opt/homebrew"
+brew bundle --file=~/.local/share/chezmoi/dot_Brewfile <<EOF
+EOF
+{{else}}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+HOMEBREW_PREFIX="/opt/homebrew"
+brew bundle --file=~/.local/share/chezmoi/dot_Brewfile <<EOF
+EOF
+{{ end }}

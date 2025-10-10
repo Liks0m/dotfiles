@@ -1,0 +1,9 @@
+{{ if (and (eq .chezmoi.os "darwin") (eq .chezmoi.hostname "LudvigMBP")) }}
+{{ template "brew_env" }}
+{{ template "nvim_env" }}
+{{ template "zsh_env" }}
+{{else if eq .chezmoi.os "linux" }}
+{{ template "dnf_env" }}
+{{ template "nvim_env" }}
+{{ template "zsh_env" }}
+{{ end }}
