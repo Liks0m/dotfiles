@@ -1,0 +1,247 @@
+chezmoi update
+ls
+cat dot_zshrc
+chezmoi
+cd
+ls -lah
+nvim .zshrc
+touch .zshenv
+ls -lah
+cd .config
+ls
+mkdir zsh
+cd zsh
+touch .zprofile .zlogin .zlogout
+ls
+ls -l
+ls -lah
+cd
+mv .zshrc .config/zsh
+ls .zshrc
+ls .zshenv
+nvim .zshenv
+nvim .zshenv
+nvim .zshrc.omz-uninstalled-2025-10-10_19-40-52
+nvim .zshenv
+nvim .zshrc.omz-uninstalled-2025-10-10_19-40-52
+nvim .zshenv
+source .zshenv
+nvim .zshenv
+vim
+vim .zshenv
+source .zshenv
+cd /opt/homebrew
+vim .zshrc
+vim .zshenv
+exit
+nvim
+bash
+ls
+cd /opt/homebrew
+ls
+ls bin
+cd /opt/homebrew/opt/
+ls
+cd python@3.13
+ls
+echo $PATH
+ls
+cd
+vim .zshenv
+echo $PATH
+source $PATH
+source $PATH
+source .zshenv
+brew -v
+vim .zshenv
+source .zshenv
+nvim .zshenv
+vim .zshenv
+source .zshenv
+vim .zshenv
+vim .config/zsh/.zprofile
+source .config/zsh/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
+source .config/zsh/.zprofile
+bre
+brew
+source .zshenv
+nvim@
+nvim
+nvim .zshenv
+three ~/.config/nvim/config/
+tree ~/.config/nvim/config/
+
+exit
+brew
+vim .zshenv
+eval "$(homebrew/bin/brew shellenv)"\
+brew update --force --quiet
+echo 'eval $(/opt/homebrew/bin/brew shellenv)'
+vim .config/zsh/.zprofile 
+source .zshenv
+brew
+vim .config/zsh/.zprofile 
+source .config/zsh/.zprofile 
+brew
+nvim .zshenv
+source .zshenv
+nvim .zshenv
+source .zshenv
+nvim .zshenv
+source .zshenv
+brew
+nvim
+brew install lua
+brew update
+git clone https://github.com/Liks0m/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+rm -rf .config/nvim
+git clone https://github.com/Liks0m/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+nvim .config/nvim
+nvim .config/nvim
+nvim
+rm -rf ~/.local/share/nvim/lazy/
+nvim
+tree ~/.config/nvim/config/
+bash
+git -v
+nvim .config/nvim/init.lua
+nvim
+nvim .config/nvim/init.lua
+nvim .config/nvim/init.lua
+nvim
+source .config/nvim/init.lua
+nvim .config/nvim/init.lua
+nvim
+brew reinstall lua
+nvim
+fd 
+nvim
+nvim
+brew install luarocks
+brew reinstall luarocks
+nvim .zshenv
+ls -rf /.config/nvim/
+rm -rf .config/nvim/lazy-lock.json
+nvim .zshenv
+go env GOROOT
+go
+clear
+go env
+brew uninstall go
+go install go
+brew install go
+go env
+echo $GOPATH
+echo $GOROOT
+nvim .zshenv
+echo $GOROOT
+go env
+nvim .zshenv
+go env
+source .zshenv
+go env
+clear
+go install
+go env
+nvim
+nvim .zshenv
+nvim .zshenv
+source .zshenv
+nvim
+nvim .config/nvim/lua/lazy-plugins.lua
+nvim
+nvim
+nvim
+nvim .config/nvim/lua/lazy-plugins.lua
+nvim .config/nvim/lua/lazy-plugins.lua
+nvim .config/nvim/lua/lazy-plugins.lua
+nvim .config/nvim/lua/kickstart/plugins/tokyonight.lua
+nvim .config/nvim/lua/kickstart/plugins/tokyonight.lua
+exit
+nvim .zshrc
+nvim .zshrc
+nvim .zshrc
+nvim .zshenv
+source .zshenv
+go env
+go env
+source .zshenv
+go env
+nvim .zshenv
+ls
+mkdir vendo
+nvim vendo/accessablity.md
+nvim vendo/accessablity.md
+clear
+nvim
+nvim vendo/accessablity.md
+clear
+nvim vendo/accessablity.md
+clear
+nvim .config/zsh/.zshrc
+nvim .zshenv
+source .zshenv
+ls
+clear
+brew install nvm\
+nvm install node\
+nvm install-latest-npm
+nvm install node
+brew install nvm\
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+cd vendo
+cd tools
+ls
+nvim unlighthouse.sh
+cd ..
+ls
+cat websites.txt
+bash tools/unlighthouse.sh
+path
+$path
+ls
+node
+nvm remove node
+nvm uninstall node
+sudo rm -rf \\
+/usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
+brew uninstall nvm
+nvm
+nvm uninstall node
+nvm deactivate
+nvm uninstall node
+$path
+sudo $path
+echo $path
+pwd
+bash tools/unlighthouse.sh
+pwd
+bash tools/unlighthouse.sh
+cd
+echo $USER
+bash tools/unlighthouse.sh
+bash tools/unlighthouse.sh
+cd
+$USER
+nvim .zshenv
+source .zshenv
+$WORKPLACE
+ls
+cd vendo
+bash tools/unlighthouse.sh
+nvim $ZDOTDIR/.zshrc
+nvim .zshenv
+ls
+cd
+nvim .zshenv
+source .zshenv
+cd vendo
+cd
+nvim
+nvim .zshenv
+source .zshenv
+cd
+cd

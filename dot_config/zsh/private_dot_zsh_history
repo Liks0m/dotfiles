@@ -1,0 +1,451 @@
+ls
+nvim
+ls -lah
+nano
+vim
+vim .zshenv
+cd /opt/homebrew/
+ls
+cd bin
+ls
+ls php
+find php
+fd php
+exit
+exit
+brew
+nvim
+ls /opt/homebrew/share/lua
+ls /opt/homebrew/share/lua/5.1/
+nvim re.lua
+cat /opt/homebrew/share/lua/5.1/re.lua
+nvim
+nvim .config/nvim/init.lua
+nvim
+nvim .config/nvim/init.lua
+ls ~/.local/share/nvim/lazy
+cd /lazy/
+cd /data
+cd data
+fd data
+cd ~/.config/nvim
+git clone https://github.com/folke/lazy.nvim.git ~/.local/share/nvim/lazy/lazy.nvim\
+
+nvim
+ls
+cd
+cd ~/.config/nvim
+ls
+cd init.lua
+nvim init.lua
+nvim
+fd lazy
+cd ~/.local/share/nvim/lazy/lazy.nvim
+ls
+bootstrap.lua
+ls -R ~/.local/share/nvim/lazy | head
+nvim --clean --headless -V3log
+cat log
+cat log | less
+cat log | grep lazy
+rm -rf ~/.local/share/nvim/lazy
+nvim
+git clone https://github.com/folke/lazy.nvim.git ~/.local/share/nvim/lazy/lazy.nvim
+git clone https://github.com/folke/lazy.nvim.git ~/.local/share/nvim/lazy/lazy.nvim
+nvim
+ls -R ~/.local/share/nvim/lazy | head\
+
+nvim ~/.local/share/lazy
+nvim ~/.local/share/lazy/lazy.nvim
+nvim ~/.local/share/nvim/lazy.nvim
+nvim ~/.local/share/nvim/lazy/lazy.nvim
+nvim .config/zsh/.zprofile
+nvim .config/zsh/.zshrc
+nvim .config/zsh/.zprofile
+sudo reboot now
+/opt/homebrew/bin/brew doctor
+brew untap
+brew doctor
+nvim .config/zsh/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+/opt/homebrew/bin/brew shellenv
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/opt/homebrew/bin/brew shellenv
+cat /opt/homebrew/bin/brew
+/opt/homebrew/bin/brew shellenv\
+export HOMEBREW_PREFIX="/opt/homebrew";\
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";\
+export HOMEBREW_REPOSITORY="/opt/homebrew";\
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";\
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";\
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";\
+
+nvim .zshenv
+cat .zshenv | grep brew --prefix
+cat .zshenv | grep brew
+brew --prefix golang
+nvim .zshenv
+clear
+go get
+go install
+clear
+nvim
+git clone --bare https://github.com/Liks0m/kickstart.nvim.git
+git
+cat .ssh/config
+git clone --bare https://github.com/Liks0m/kickstart.nvim.git
+tldr git
+git clone --bare https://github.com/Liks0m/kickstart.nvim.git
+ls
+git clone https://github.com/Liks0m/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+sudo rm -rf .config/nvim
+git clone https://github.com/Liks0m/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+rm -rf ~/.local/share/nvim/lazy
+rm -rf ~/.local/state/nvim/lazy
+nvim .config/nvim/lazy-lock.json
+git clone https://github.com/Liks0m/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+nvim .config/nvim/lua
+ls .local/share/nvim/
+ls .local/state/nvim/
+cat .local/state/nvim/backup
+cat .local/state/nvim/backup/
+ls .local/state/nvim/backup/
+nvim .config/nvim/init.lua
+nvim .config/nvim/
+nvim .config/nvim/
+nvim .config/nvim/
+nvim
+nvim .config/nvim/
+nvim .config/nvim/
+nvim
+exit
+nvim .zshenv
+exit
+echo $path
+exit
+go env
+nvim $ZDOTDIR/.zshrc
+brew install sheldon
+source .zshrc
+nvim $ZDOTDIR/.zshrc
+source $ZDOTDIR/.zshrc
+sheldon init --shell zsh
+nvim .config/nvim
+cd .config/nvim
+git pull origin
+nvim
+brew update
+brew upgrade
+cd
+nvim fagskole/komptanse.md
+nvim .config/sheldon/plugins.toml
+nvim .config/sheldon/plugins.toml 
+source .zshrc
+clear
+cd .config/nvim
+ls
+git pull
+nvim
+cd
+j
+j
+ls
+nvim komptanse.md
+exit
+glow komptanse.md
+glow 
+clear
+brew install --cask word
+brew install --cask mircosoft-word
+brew install --cask micrsoft-word
+brew install --cask microsoft-word
+nvim komptanse.md
+nvim fagskole
+cd fagskole
+cp komptanse.md.bak
+cp komptanse.md komptanse.md.bk
+ls
+mv komptanse.md.bk komptanse.md.bak
+mv komptanse.md komptanse.docx
+nvim komptanse.
+nvim komptanse.docx
+nvim komptanse.docx
+ls -lah
+chmod 777 komptanse.docx
+cd fagskole
+mv komptanse.docx komptanse.md
+ls
+cd 
+ls
+nvim ~$mptanse.docx
+mv \~\$mptanse.docx
+mv \~\$mptanse.docx komptanse.docx
+ls
+nvim komptanse.docx
+nvim komptanse.docx ~/fagskole/komptanse.docx
+mv komptanse.docx ~/fagskole/komptanse.docx
+nvim
+exit
+cd .config/nvim
+git pull
+nvim
+curl -L -u https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Kanagawa%20Wave.itermcolors
+curl -L -u Kanagawa%20Wave.itermcolors https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Kanagawa%20Wave.itermcolors
+curl -L -O https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Kanagawa%20Wave.itermcolors
+ls
+rm -rf Kanagawa%20Wave.itermcolors
+cd ..
+cd Downloads
+curl -L -O https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Kanagawa%20Wave.itermcolors
+ls
+nvim
+btop
+nvm
+nvm install node
+nvm install-latest-npm
+npm fund
+npm install -g pa11y
+pa11y --help
+pa11y -
+pa11y -
+cd vendo
+ls
+nvim accessablity.md
+npm 
+npm uninstall pa11y
+pa11y
+npm uninstall pa11y
+npm prune pa11y
+ls pa11y
+pa11y
+npm uninstall -g pa11y
+pa11y
+podman run --name unlighthouse --rm -it \\
+  -v /media/unlighthouse:/unlighthouse \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse-ci --site="https://alstahaug.migrate.nkdb.no" --build-static
+podman machine init
+podman system connection list
+podman run --name unlighthouse --rm -it \\
+  -v /media/unlighthouse:/unlighthouse \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse-ci --site="https://alstahaug.migrate.nkdb.no" --build-static
+podman machine start
+podman run --name unlighthouse --rm -it \\
+  -v /media/unlighthouse:/unlighthouse \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse-ci --site="https://alstahaug.migrate.nkdb.no" --build-static
+podman machine stop; podman machine start
+podman run --name unlighthouse --rm -it \\
+  -v /media/unlighthouse:/unlighthouse \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse-ci --site="https://alstahaug.migrate.nkdb.no" --build-static
+podman machine set --rootful
+podman machine stop; podman machine set --rootful
+podman machine set --rootful
+podman machine start
+podman run --name unlighthouse --rm -it \\
+  -v /media/unlighthouse:/unlighthouse \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse-ci --site="https://alstahaug.migrate.nkdb.no" --build-static
+fd /media/lighthouse
+cd
+fd /media/lighthouse
+docker run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site="https://example.com" --desktop\
+v
+docker run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site="https://example.com" --desktop\
+v
+podman run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site="https://alstahaug.migrate.nkdb.no" --desktop
+jobs
+cd vendo
+podman status
+podman status
+podman stats
+podman 
+podman machine stop
+podman machine start
+podman system
+podman run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site "https://alstahaug.migrate.nkdb.no" --desktop
+podman run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site "https://alstahaug.migrate.nkdb.no" --desktop
+ls
+podman
+ssh://127.0.0.1:49650/run/podman/podman.sock
+ssh ://127.0.0.1:49650/run/podman/podman.sock
+podman networks
+podman network
+podman network ls
+podman run --name unlighthouse --rm -it epicsoft/unlighthouse:latest\
+
+podman run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site "https://alstahaug.migrate.nkdb.no" --desktop --output-path ~/vendo/
+ls
+podman run --rm frvge/pa11y
+podman run --rm frvge/pa11y https://alstahaug.migrate.nkdb.no/
+mkdir tools
+nvim tools/dockerfile
+podman run --rm  --it dcycle/pa11y
+podman run --rm dcycle/pa11y:2 https://alstahaug.migrate.nkdb.no/
+tldr pa11y
+podman run --rm dcycle/pa11y:2 https://alstahaug.migrate.nkdb.no/ -r html
+podman run --rm dcycle/pa11y:2 https://alstahaug.migrate.nkdb.no/ -r csv
+nvim vendo/tools
+nvim /tools
+nvim /tools/WCAGcheck.sh
+cd tools
+ls
+nvim WCAGCheck.sh
+nvim WCAGCheck.sh
+nvim WCAGCheck.sh
+sudo chmod +x WCAGCheck.sh
+./WCAGCheck.sh
+nvim WCAGCheck.sh
+./WCAGCheck.sh
+cd vendo
+mv accessablity.md websites.txt
+cd vendo
+ls
+nvim websites.txt
+nvim tools
+sudo bash tools/WCAGCheck.sh
+wc websites.txt
+wc  -l websites.txt
+tldr wc
+cat websites.txt
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+clear
+nvim .tools/Dockerfile.lighthouse
+touch .tools/dockerfile.lighthouse
+touch tools/dockerfile.lighthouse
+nvim tools/dockerfile.lighthouse
+nvim tools/dockerfile.lighthouse
+mv tools/dockerfile.lighthouse tools/Dockerfile.lighthouse
+nvim tools/Dockerfile.lighthouse
+nvim tools/lighthouse.sh
+cd vendo
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+tldr cut
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+tldr -d
+tldr cut
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+cd $ZDOTDIR
+ls
+ls -lah
+nvim .zhistory
+nvim .zshrc
+cd
+nvim .zshenv
+sudo bash tools/WCAGCheck.sh
+cd vendo
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+podman machine status
+podman manchine
+podman machine
+podman machine Os
+podman machine os
+podman machine lisy
+podman machine list
+tldr podman
+podman ps --all
+podman system connection list
+podman machine inspect
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+sudo bash tools/WCAGCheck.sh
+bash tools/WCAGCheck.sh
+nvim tools/Dockerfile.lighthouse
+cd vendo
+ls
+nvim tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+nvim tools/WCAGCheck.sh
+nvim tools/unlighthouse.sh
+cd vendo/
+nvim
+[200~
+podman run --name unlighthouse --rm -it \\
+  -p 5678:5678 \\
+  epicsoft/unlighthouse:latest \\
+    unlighthouse --site="https://alstahaug.migrate.nkdb.no\
+https://alstahaug.migrate.nkdb.no/collection\
+https://alstahaug.migrate.nkdb.no/place\
+https://alstahaug.migrate.nkdb.no/art_trail\
+https://alstahaug.migrate.nkdb.no/art_trail/260002/Kunsten_og_byen\
+https://alstahaug.migrate.nkdb.no/place/260014"
+clear
+nvim tools/lighthouse.sh
+nvim tools/lighthouse.sh
+cd $WORKPLACE
+ls
+bash tools/unlighthouse.sh
+bash tools/unlighthouse.sh
+cd
+bash tools/lighthouse.sh
+nvim tools/lighthouse.sh
+bash tools/lighthouse.sh
+bash tools/lighthouse.sh
+nvim tools/lighthouse.sh
+clear
+bash tools/lighthouse.sh
+exit
+brew install warrensbox/tap/tfswitch
