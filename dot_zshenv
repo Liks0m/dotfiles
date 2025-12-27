@@ -1,0 +1,33 @@
+#!/usr/bin/env zsh
+
+#XDG Base directory
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+#Editor choice
+export EDITOR="nvim"
+export VISUAL="nvim"
+export VIMCONFIG="$XDG_CONFIG_HOME/nvim"
+
+#workplace 
+export WORKPLACE="$HOME/vendo/"
+
+#History config
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
+export HISTSIZE=10000                   # Maximum events for internal history
+export SAVEHIST=10000                   # Maximum events in history file
+
+#SSH authencation using touch-ID Sercetive
+export SSH_AUTH_SOCK="/Users/ludvigbj/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh" 
+
+#homebrew paths
+export HOMEBREW_PREFIX="/opt/homebrew"
+export PATH="/opt/homebrew/bin:$PATH"
+
+#Paths
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+#Puppeteer 
+#export PUPPETEER_EXECUTABLE_PATH="/Applications/Google\ Chrome\ Dev.app/Contents/MacOS/Google\ Chrome\ Dev"
