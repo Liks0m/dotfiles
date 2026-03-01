@@ -1,5 +1,4 @@
 {{ if (and (eq .chezmoi.os "darwin") (eq .chezmoi.hostname "LudvigMBP")) }}
 {{ template "brew_env" }}
 {{else if eq .chezmoi.os "linux" }}
-{{ template "pacman_env" }}
 {{ end }}
