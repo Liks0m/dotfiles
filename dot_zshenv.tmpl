@@ -19,7 +19,7 @@ export SAVEHIST=10000                   # Maximum events in history file
 
 {{ if eq .chezmoi.os "darwin" }}
 #SSH authencation using touch-ID Sercetive
-export SSH_AUTH_SOCK="/Users/ludvigbj/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh" 
+export SSH_AUTH_SOCK="/Users/$USER/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh" 
 
 #homebrew paths
 export HOMEBREW_PREFIX="/opt/homebrew"
