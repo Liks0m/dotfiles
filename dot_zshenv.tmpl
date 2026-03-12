@@ -17,12 +17,13 @@ export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
+{{ if eq .chezmoi.os "darwin" }}
 #SSH authencation using touch-ID Sercetive
 export SSH_AUTH_SOCK="/Users/ludvigbj/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh" 
 
 #homebrew paths
 export HOMEBREW_PREFIX="/opt/homebrew"
 export PATH="/opt/homebrew/bin:$PATH"
-
+{{ end }}
 #Paths
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
