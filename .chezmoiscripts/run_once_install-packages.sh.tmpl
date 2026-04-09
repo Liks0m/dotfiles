@@ -1,3 +1,7 @@
 {{ if eq .chezmoi.os "darwin" }}
 brew bundle --global
+
+{{ if not exec "brew" }}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+{{ end }} 
 {{ end }} 
