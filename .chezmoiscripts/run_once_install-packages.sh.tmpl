@@ -5,6 +5,7 @@ brew bundle --global
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 {{ else if eq .chezmoi.os "darwin" eq .chezmoi.hostname "TN-DYRFWR4VJW" }}
+#!/bin/bash 
 
 brew bundle --file=/dev/stdin <<EOF
 tap "hashicorp/tap"
@@ -78,4 +79,7 @@ vscode "ms-vscode.powershell"
 go "golang.org/x/website/tour"
 EOF
  
+ 
+{{ end }}
+{{ end }}
 {{ end }}
