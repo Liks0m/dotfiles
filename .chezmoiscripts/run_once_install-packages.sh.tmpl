@@ -1,6 +1,8 @@
 {{ if eq .chezmoi.os "darwin" eq .chezmoi.hostname "LudvigMBP.local" }}
 brew bundle --global
 
+
+
 {{ if not exec "brew" }}
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -80,6 +82,4 @@ go "golang.org/x/website/tour"
 EOF
  
  
-{{ end }}
-{{ end }}
 {{ end }}
