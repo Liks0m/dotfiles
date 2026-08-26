@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+alias pi="podman image ls"
+alias prm="podman rmi"
+alias pr ="podman run"
+alias p ="podman"
+alias pstart="podman start"
+alias pstop="podman stop"
+alias pbuild="podman build"
