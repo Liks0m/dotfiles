@@ -1,6 +1,12 @@
 [user]
+{{ if eq .chezmoi.hostname "LudvigMBP.local" }}
 	name = Liks0m
-  email = gh@liks0m.dev
+	email = gh@liks0m.dev
+{{ end }}
+{{ else if eq .chezmoi.hostname "TN-DYRFWR4VJW" }}
+	name = CloudLarper
+	email = ludvig.bjune.hopen@telenor.no
+{{ end }}
 [credential "https://github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
