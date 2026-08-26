@@ -3,4 +3,6 @@
 /dot_config/zsh/dot_zcompdump
 /dot_config/nvim/lazy-lock.json
 /dot_config/nvim/.git
+/dot_config/nvim/dot_git/
+.chezmoi.toml.tmpl
 
