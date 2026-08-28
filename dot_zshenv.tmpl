@@ -25,5 +25,10 @@ export SSH_AUTH_SOCK="/Users/$USER/Library/Containers/com.maxgoedjen.Secretive.S
 export HOMEBREW_PREFIX="/opt/homebrew"
 export PATH="/opt/homebrew/bin:$PATH"
 {{ end }}
+
 #Paths
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
+{{ if eq .chezmoi.hostname "LudvigMBP.local" }}
+#bw Paths
+export BW_SESSION="R8CJf3qo1MFJbfnyOLHpJZQ2ZB8dhd/jzEUrw868V4NKte/xegTr1RbHRwf6GTSJ3XYMGOAckNchg1/FhP9RaQ=="
+{{ end }}
