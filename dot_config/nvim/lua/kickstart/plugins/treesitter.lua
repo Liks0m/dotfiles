@@ -3,6 +3,31 @@ return {
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     main = 'nvim-treesitter.configs', -- Sets main module to use for opts
+    init = function()
+      -- The frozen `master` branch registers query predicates/directives with
+      -- `all = false` (one node per capture). Neovim 0.12 dropped that option and
+      -- always passes a list of nodes, which crashes e.g. markdown code blocks
+      -- with "attempt to call method 'range'". Restore the old behaviour for
+      -- those handlers. Remove this if you migrate to the `main` branch.
+      local query = vim.treesitter.query
+      local function single_node_compat(register)
+        return function(name, handler, opts)
+          if type(opts) == 'table' and opts.all == false then
+            local original = handler
+            handler = function(match, ...)
+              local single = {}
+              for id, nodes in pairs(match) do
+                single[id] = type(nodes) == 'table' and nodes[#nodes] or nodes
+              end
+              return original(single, ...)
+            end
+          end
+          return register(name, handler, opts)
+        end
+      end
+      query.add_predicate = single_node_compat(query.add_predicate)
+      query.add_directive = single_node_compat(query.add_directive)
+    end,
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
     opts = {
       ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
