@@ -1,11 +1,11 @@
 [user]
-{{ if eq .chezmoi.hostname "LudvigMBP.local" and .chezmoi.os "darwin" }}
+{{ if eq .chezmoi.hostname "LudvigMBP.local"  }}
 	name = Liks0m
 	email = gh@liks0m.dev
 
 	signingkey = /Users/$USER/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/e5cd7cbf38a87adffbda13f5c8ed4dc1.pub
 
-{{ else if eq .chezmoi.hostname "TN-DYRFWR4VJW" and .chezmoi.os "darwin" }}
+{{ else if eq .chezmoi.hostname "TN-DYRFWR4VJW"  }}
 	name = CloudLarper
 	email = ludvig.bjune.hopen@telenor.no
 {{ end }}
